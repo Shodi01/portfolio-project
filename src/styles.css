@@ -19,6 +19,7 @@ h6 {
 p {
   font-weight: normal;
   font-family: "Commissioner", Arial, Helvetica, sans-serif;
+  line-height: 30px;
 }
 
 .hero h1 {
@@ -33,7 +34,7 @@ p {
 }
 
 .hero h2 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 24px;
   line-height: 2;
   color: #877666;
@@ -51,4 +52,31 @@ p {
 .btn-info :hover {
   background-color: #7d8cc4;
   color: black;
+}
+
+.btn-site {
+  background: white;
+  border-radius: 4px;
+  color: #7d8cc4;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 27px;
+  border: 1px solid #7d8cc4;
+}
+
+.btn-site :hover {
+  background: #7d8cc4;
+  color: white;
+  border: white;
+}
+
+.description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  .description {
+    padding: 0;
+    text-align: center;
+  }
 }
