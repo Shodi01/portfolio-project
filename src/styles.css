@@ -13,14 +13,17 @@ h5,
 h6 {
   color: #1c1d21;
   font-weight: bold;
+  font-family: "Commissioner", sans-serif;
 }
 
 p {
   font-weight: normal;
+  font-family: "Commissioner", Arial, Helvetica, sans-serif;
 }
 
 .hero h1 {
   font-size: 96px;
+  font-family: "Limelight", sans-serif;
 }
 
 .hero p {
@@ -43,4 +46,9 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 27px;
+}
+
+.btn-info :hover {
+  background-color: #7d8cc4;
+  color: black;
 }
