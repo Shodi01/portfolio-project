@@ -70,6 +70,10 @@ p {
   border: white;
 }
 
+.active {
+  color: #5688c7;
+}
+
 .description {
   padding: 120px 60px;
 }
