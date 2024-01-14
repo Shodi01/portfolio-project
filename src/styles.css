@@ -3,6 +3,7 @@
   background-color: #cee5f2;
   text-align: center;
   padding: 160px 20px;
+  box-sizing: border-box;
 }
 
 h1,
@@ -14,21 +15,25 @@ h6 {
   color: #1c1d21;
   font-weight: bold;
   font-family: "Commissioner", sans-serif;
+  box-sizing: border-box;
 }
 
 p {
   font-weight: normal;
   font-family: "Commissioner", Arial, Helvetica, sans-serif;
   line-height: 30px;
+  box-sizing: border-box;
 }
 
 nav {
   padding: 20px 0;
+  box-sizing: border-box;
 }
 
 nav ul {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 nav li {
@@ -36,17 +41,20 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
+  box-sizing: border-box;
 }
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: #1c1d21;
   transition: all 100ms ease-in-out;
+  box-sizing: border-box;
 }
 
 nav a:hover,
 nav li.active a {
   color: #5688c7;
+  box-sizing: border-box;
 }
 
 .hero h1 {
