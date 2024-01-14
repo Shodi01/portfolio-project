@@ -99,6 +99,7 @@ nav li.active a {
 
 .logo {
   max-height: 40px;
+  max-width: 40px;
 }
 
 .active {
