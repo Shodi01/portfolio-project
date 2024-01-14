@@ -1,6 +1,6 @@
 /* insert google fonts here */
 .hero {
-  background-color: #fffcf2;
+  background-color: #cee5f2;
   text-align: center;
   padding: 160px 20px;
 }
@@ -20,6 +20,33 @@ p {
   font-weight: normal;
   font-family: "Commissioner", Arial, Helvetica, sans-serif;
   line-height: 30px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #5688c7;
 }
 
 .hero h1 {
@@ -70,6 +97,10 @@ p {
   border: white;
 }
 
+.logo {
+  max-height: 40px;
+}
+
 .active {
   color: #5688c7;
 }
@@ -78,8 +109,33 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-width: 960px) {
+/*@media (max-width: 900px) {
   .description {
+    padding: 0;
+    text-align: center;
+  }
+}*/
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  /* .content {
+    text-align: center;
+    padding: 0;
+  }*/
+
+  .desciption {
     padding: 0;
     text-align: center;
   }
